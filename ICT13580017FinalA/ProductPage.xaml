@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580017FinalA.ProductPage">
+
+    <StackLayout
+        Orientation="Vertical"
+        Margin="20">
+        <Label
+            x:Name="titleLable"
+            Text="เพิ่มสินค้าใหม่"
+            HorizontalTextAlignment="Center"
+            FontSize="20"
+            FontAttributes="Bold"
+            Margin="10" />
+        <Label
+            Text="ชื่อ"
+            TextColor="Green"
+            FontSize="14">
+        </Label>
+        <Entry
+            x:Name="NameEntry"
+            Placeholder="ชื่อ"
+            BackgroundColor="White" />
+        
+        <Label
+            Text="นามสกุล"
+            TextColor="Green"
+            FontSize="14">
+        </Label>
+        <Entry
+            x:Name="lastNameEntry"
+            Placeholder="นามสกุล"
+            BackgroundColor="White" />
+        
+        <Label
+            Text="อายุ"
+            TextColor="Green"
+            FontSize="14">
+        </Label>
+        <Entry
+            x:Name="Age"
+            Placeholder="อายุ"
+            BackgroundColor="White" />
+        
+        <Picker
+                x:Name="sex"
+                Title="เพศ"
+                BackgroundColor="White" />
+        
+        <Label
+            Text="แผนก"
+            TextColor="Green"
+            FontSize="14">
+        </Label>
+        <Entry
+            x:Name="department"
+            Placeholder="แผนก"
+            BackgroundColor="White" />
+        
+        <Label
+            Text="phone"
+            TextColor="Green"
+            FontSize="14">
+        </Label>  
+        <Entry
+            x:Name="phone"
+            Placeholder="เบอร์โทร"
+            BackgroundColor="White" />
+        
+        <Label
+            Text="email"
+            TextColor="Green"
+            FontSize="14">
+         </Label>
+        <Entry
+            x:Name="email"
+            Placeholder="E-mail"
+            BackgroundColor="White" />
+        
+
+        <Label
+            Text="Address"
+            TextColor="Green"
+            FontSize="14">
+        </Label>
+        <Editor
+            x:Name="descriptionEditor"
+            HeightRequest="100" />
+        
+        <Label
+            Text="จำนวนบุตร"
+            TextColor="Green"
+            FontSize="14">
+        </Label>
+        <Entry
+            x:Name="total"
+            Placeholder="จำนวนบุตร"
+            BackgroundColor="White" />
+
+         <Picker
+                x:Name="salary"
+                Title="เงินเดือน"
+                BackgroundColor="White" />
+        
+    </StackLayout>
+</ContentPage>
